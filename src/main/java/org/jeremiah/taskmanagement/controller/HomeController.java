@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "index"; // Maps to src/main/resources/templates/index.html
+        return "index"; // This points to src/main/resources/templates/index.html
     }
 }
